@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# === AI News Digest 固有 ===
+# 投稿済み記録（実行ごとに更新されるデータ。共有不要）
+data/posted_articles.json
+# ログ出力先
+logs/
+# 一時ファイル
+~$*
+_memo.xlsx
+_result.txt

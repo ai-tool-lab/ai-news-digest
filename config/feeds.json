@@ -1,0 +1,181 @@
+{
+  "_comment": "対象の情報源リスト。ここを編集するだけで取得先を追加・削除・変更できます。各項目の意味は README.md を参照してください。enabled を false にすると取得対象から外れます。type が rss のものはそのまま動きます。type が html / sns のものは追加実装やRSSHubの設定が必要なため、初期状態では enabled:false にしています。",
+  "feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "lang": "en",
+      "type": "rss",
+      "priority": "highest",
+      "enabled": true
+    },
+    {
+      "name": "OpenAI X",
+      "url": "https://rsshub.app/twitter/user/OpenAI",
+      "lang": "en",
+      "type": "sns",
+      "priority": "high",
+      "enabled": false
+    },
+    {
+      "name": "Anthropic Newsroom",
+      "url": "https://rsshub.app/anthropic/news",
+      "lang": "en",
+      "type": "html",
+      "priority": "highest",
+      "enabled": false
+    },
+    {
+      "name": "Anthropic Engineering",
+      "url": "https://rsshub.app/anthropic/engineering",
+      "lang": "en",
+      "type": "html",
+      "priority": "highest",
+      "enabled": false
+    },
+    {
+      "name": "Claude Platform Release Notes",
+      "url": "https://docs.claude.com/en/release-notes/api",
+      "lang": "en",
+      "type": "html",
+      "priority": "highest",
+      "enabled": false
+    },
+    {
+      "name": "Anthropic X",
+      "url": "https://rsshub.app/twitter/user/AnthropicAI",
+      "lang": "en",
+      "type": "sns",
+      "priority": "high",
+      "enabled": false
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "highest",
+      "enabled": true
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "lang": "en",
+      "type": "rss",
+      "priority": "highest",
+      "enabled": true
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/feeds/posts/default",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "Google Cloud AI & ML Blog",
+      "url": "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "Google DeepMind X",
+      "url": "https://rsshub.app/twitter/user/GoogleDeepMind",
+      "lang": "en",
+      "type": "sns",
+      "priority": "high",
+      "enabled": false
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "http://export.arxiv.org/rss/cs.AI",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.LG (ML)",
+      "url": "http://export.arxiv.org/rss/cs.LG",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.CL (NLP)",
+      "url": "http://export.arxiv.org/rss/cs.CL",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "MIT News - Artificial Intelligence",
+      "url": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "Zenn (AIトピック)",
+      "url": "https://zenn.dev/topics/ai/feed",
+      "lang": "ja",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "AINOW",
+      "url": "https://ainow.ai/feed/",
+      "lang": "ja",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    }
+  ]
+}
