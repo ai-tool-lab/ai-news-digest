@@ -176,6 +176,107 @@
       "type": "rss",
       "priority": "high",
       "enabled": true
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "lang": "en",
+      "type": "html",
+      "url_contains": "/news/",
+      "min_title_len": 15,
+      "title_cleanup": true,
+      "priority": "highest",
+      "enabled": false
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "GitHub Blog - AI",
+      "url": "https://github.blog/ai-and-ml/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "The Batch / DeepLearning.AI",
+      "url": "https://www.deeplearning.ai/the-batch/",
+      "lang": "en",
+      "type": "html",
+      "url_contains": "/the-batch/tag/",
+      "min_title_len": 12,
+      "priority": "high",
+      "enabled": false
+    },
+    {
+      "name": "Import AI",
+      "url": "https://importai.substack.com/feed",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/atom/everything/",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "lang": "en",
+      "type": "rss",
+      "priority": "medium",
+      "enabled": true
     }
   ]
 }

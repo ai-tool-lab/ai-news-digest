@@ -1,7 +1,7 @@
 {
   "_comment": "ツール全体の設定。値を書き換えるだけで挙動を調整できます。",
 
-  "max_articles_per_run": 15,
+  "max_articles_per_run": 20,
   "max_articles_per_feed": 5,
   "fetch_within_hours": 36,
 
